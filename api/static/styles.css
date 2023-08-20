@@ -1,1 +1,17 @@
 /* Add custom style classes here and use them in the main.json file */
+
+.bg-hsp     {
+    background-color: #004AAC;
+}
+
+.text-hsp       {
+    color: #004AAC;
+}
+
+.font-hsp       {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.font-pop  {
+    font-family: 'Poppins';
+}
