@@ -2,23 +2,99 @@
     "components": [
         {
             "type": "heading",
-            "label": "Heading"
+            "label": "Campuses"
         },
-
         {
             "type": "button",
-            "label": "Button with Endpoint",
+            "label": "RR Campus",
             "properties": {
-                "link": "somelink.com",
-                "endpoint": "/blah"
+                "link": "/rr"
+            }
+        },
+        {
+            "type": "button",
+            "label": "EC Campus",
+            "properties": {
+                "link": "/ec"
             }
         },
 
         {
+            "type": "heading",
+            "label": "Club Media"
+        },
+        {
             "type": "button",
-            "label": "Button without Endpoint",
+            "label": "Discord Server",
             "properties": {
-                "link": "/newpage"
+                "link": "https://discord.gg/9m7ad5mDVK",
+                "endpoint": "/discord"
+            }
+        },
+        {
+            "type": "button",
+            "label": "GitHub",
+            "properties": {
+                "link": "https://bit.ly/hackerspace-github",
+                "endpoint": "/github"
+            }
+        },
+        {
+            "type": "button",
+            "label": "Twitter",
+            "properties": {
+                "link": "http://bit.ly/hackerspace-twitter-rr",
+                "endpoint": "/twitter"
+            }
+        },
+        {
+            "type": "button",
+            "label": "LinkedIn",
+            "properties": {
+                "link": "https://bit.ly/hackerspace-linkedin",
+                "endpoint": "/linkedin"
+            }
+        },
+
+        {
+            "type": "heading",
+            "label": "Instagram"
+        },
+        {
+            "type": "button",
+            "label": "RR Campus",
+            "properties": {
+                "link": "http://bit.ly/hackerspace-instagram",
+                "endpoint": "/rr/instagram"
+            }
+        },
+        {
+            "type": "button",
+            "label": "EC Campus",
+            "properties": {
+                "link": "http://bit.ly/hackerspace-instagram-ecc",
+                "endpoint": "/ec/instagram"
+            }
+        },
+
+        {
+            "type": "heading",
+            "label": "YouTube"
+        },
+        {
+            "type": "button",
+            "label": "RR Campus",
+            "properties": {
+                "link": "http://bit.ly/hackerspace-youtube",
+                "endpoint": "/rr/youtube"
+            }
+        },
+        {
+            "type": "button",
+            "label": "EC Campus",
+            "properties": {
+                "link": "http://bit.ly/hackerspace-youtube-ecc",
+                "endpoint": "/ec/youtube"
             }
         }
     ]
