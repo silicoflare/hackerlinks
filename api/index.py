@@ -12,6 +12,7 @@ def index():
     with open('data/index.json', 'r') as data:
         components = json.loads(data.read())['components']
     return render_template('main.html', 
+    title="Home",
     project_name="HackerSpace",
     main_heading="</hackerspace>",
     content="Development Club of PES University",
@@ -29,6 +30,7 @@ def rr():
     with open('data/rr-campus.json', 'r') as data:
         components = json.loads(data.read())['components']
     return render_template('main.html', 
+    title="RR Campus",
     project_name="HackerSpace",
     main_heading="</hackerspace>",
     content="Development Club of PES University",
@@ -46,6 +48,7 @@ def ec():
     with open('data/ec-campus.json', 'r') as data:
         components = json.loads(data.read())['components']
     return render_template('main.html', 
+    title="EC Campus",
     project_name="HackerSpace",
     main_heading="</hackerspace>",
     content="Development Club of PES University",
