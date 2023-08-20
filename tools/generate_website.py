@@ -20,7 +20,7 @@ def {page["endpoint"][1:].replace('/', '_') if page["endpoint"] != '/' else 'ind
     with open('data/{page["file"]}', 'r') as data:
         components = json.loads(data.read())['components']
     return render_template('main.html', 
-    title="{page["endpoint"]['title']}",
+    title="{page['title']}",
     project_name="{meta['project_name']}",
     main_heading="{meta['page_content']['main_heading']}",
     content="{meta['page_content']['content']}",
