@@ -28,6 +28,7 @@ def {page["endpoint"][1:].replace('/', '_') if page["endpoint"] != '/' else 'ind
     heading_classes="{meta['page_content']['styles']['heading_classes']}",
     content_classes="{meta['page_content']['styles']['content_classes']}",
     subhead_classes="{meta['page_content']['styles']['subhead_classes']}",
+    button_classes="{meta['page_content']['styles']['button_classes']}",
     components=components
     )
 

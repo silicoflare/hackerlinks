@@ -2,7 +2,7 @@
     "project_name": "HackerSpace",
     
     "page_content": {
-        "main_heading": "&lt;HackerSpace&gt;",
+        "main_heading": "</hackerspace>",
         "content": "Development Club of PES University",
         "styles": {
             "stylesheets": [
@@ -13,7 +13,7 @@
             "heading_classes": "font-hsp text-white",
             "content_classes": "text-white",
             "subhead_classes": "font-hsp text-white",
-            "button_classes": "text-white border-2 border-white rounded-full"
+            "button_classes": "border-white border-2 rounded-full text-white font-pop"
         }
     },
 
