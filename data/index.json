@@ -2,25 +2,6 @@
     "components": [
         {
             "type": "heading",
-            "label": "Campuses"
-        },
-        {
-            "type": "button",
-            "label": "RR Campus",
-            "properties": {
-                "link": "/rr"
-            }
-        },
-        {
-            "type": "button",
-            "label": "EC Campus",
-            "properties": {
-                "link": "/ec"
-            }
-        },
-
-        {
-            "type": "heading",
             "label": "Club Media"
         },
         {
