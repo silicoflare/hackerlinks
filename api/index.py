@@ -21,7 +21,7 @@ def index():
     heading_classes="font-hsp text-white",
     content_classes="text-white",
     subhead_classes="font-hsp text-white",
-    button_classes="border-white border-2 rounded-full text-white font-pop",
+    button_classes="border-white border-2 rounded-full text-white font-pop bg-hsp",
     components=components
     )
 
@@ -35,11 +35,11 @@ def rr():
     main_heading="</hackerspace>",
     content="Development Club of PES University",
     stylesheets=["<style>@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&display=swap');</style>", ''],
-    body_classes="bg-hsp font-pop",
+    body_classes="font-pop",
     heading_classes="font-hsp text-white",
     content_classes="text-white",
     subhead_classes="font-hsp text-white",
-    button_classes="border-white border-2 rounded-full text-white font-pop",
+    button_classes="border-white border-2 rounded-full text-white font-pop bg-hsp",
     components=components
     )
 
@@ -53,11 +53,11 @@ def ec():
     main_heading="</hackerspace>",
     content="Development Club of PES University",
     stylesheets=["<style>@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&display=swap');</style>", ''],
-    body_classes="bg-hsp font-pop",
+    body_classes="font-pop",
     heading_classes="font-hsp text-white",
     content_classes="text-white",
     subhead_classes="font-hsp text-white",
-    button_classes="border-white border-2 rounded-full text-white font-pop",
+    button_classes="border-white border-2 rounded-full text-white font-pop bg-hsp",
     components=components
     )
 
