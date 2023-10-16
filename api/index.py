@@ -77,19 +77,11 @@ def twitter():
 def linkedin():
     return redirect('https://bit.ly/hackerspace-linkedin')
 
-@app.route('/rr/instagram')
-def rr_instagram():
-    return redirect('http://bit.ly/hackerspace-instagram')
+@app.route('/instagram')
+def instagram():
+    return redirect('https://www.instagram.com/peshackerspace/')
 
-@app.route('/ec/instagram')
-def ec_instagram():
-    return redirect('http://bit.ly/hackerspace-instagram-ecc')
-
-@app.route('/rr/youtube')
-def rr_youtube():
+@app.route('/youtube')
+def youtube():
     return redirect('http://bit.ly/hackerspace-youtube')
-
-@app.route('/ec/youtube')
-def ec_youtube():
-    return redirect('http://bit.ly/hackerspace-youtube-ecc')
 
