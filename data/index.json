@@ -36,46 +36,20 @@
                 "endpoint": "/linkedin"
             }
         },
-
-        {
-            "type": "heading",
-            "label": "Instagram"
-        },
         {
             "type": "button",
-            "label": "RR Campus",
+            "label": "Instagram",
             "properties": {
-                "link": "http://bit.ly/hackerspace-instagram",
-                "endpoint": "/rr/instagram"
+                "link": "https://www.instagram.com/peshackerspace/",
+                "endpoint": "/instagram"
             }
         },
         {
             "type": "button",
-            "label": "EC Campus",
-            "properties": {
-                "link": "http://bit.ly/hackerspace-instagram-ecc",
-                "endpoint": "/ec/instagram"
-            }
-        },
-
-        {
-            "type": "heading",
-            "label": "YouTube"
-        },
-        {
-            "type": "button",
-            "label": "RR Campus",
+            "label": "YouTube",
             "properties": {
                 "link": "http://bit.ly/hackerspace-youtube",
-                "endpoint": "/rr/youtube"
-            }
-        },
-        {
-            "type": "button",
-            "label": "EC Campus",
-            "properties": {
-                "link": "http://bit.ly/hackerspace-youtube-ecc",
-                "endpoint": "/ec/youtube"
+                "endpoint": "/youtube"
             }
         }
     ]
